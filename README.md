@@ -1,20 +1,63 @@
-<h1 align="center">Hi 👋, I'm Gajendra Tomar</h1>
-<h3 align="center">Senior Application Support Engineer | Enterprise Systems | SSMS • Oracle • RabbitMQ • IBMMQ • Redis • Python Automation | Azure Certified</h3>
+# Hi 👋, I'm Gajendra Tomar
 
-- 🔭 I’m currently working on [RabbitMQ-QA-Utility-Phase-One](https://github.com/iamgstomar/RabbitMQ-QA-Utility-Phase-One.git)
+### Test Automation | Playwright • Python • CI/CD • Azure DevOps
 
-- 👨‍💻 All of my projects are available at [https://github.com/iamgstomar?tab=repositories](https://github.com/iamgstomar?tab=repositories)
+I’m an IT professional specializing in enterprise application support, software testing, test automation, and infrastructure troubleshooting. I’m focused on building maintainable automation frameworks, improving software quality, and integrating automated testing into CI/CD pipelines.
 
-- 📫 How to reach me **gajendratomar81@gmail.com**
+* 🔭 **Currently working on:** Playwright automation frameworks and Jenkins CI/CD pipelines
+* 🧪 **Automation & Testing:** Playwright, Python, TypeScript, Cypress, Pytest, Postman, JMeter
+* ⚙️ **DevOps & CI/CD:** Jenkins, Azure DevOps, Git, PowerShell
+* ☁️ **Cloud:** Microsoft Azure, AWS
+* 🗄️ **Databases:** Microsoft SQL Server, Oracle, Redis
+* 📨 **Messaging & Integration:** RabbitMQ, IBM MQ
+* 🖥️ **Systems & Servers:** Linux, Windows Server, IIS, Windows Services
+* 🔐 **Security:** TLS/SSL, Mutual TLS Authentication, API Security
+* 📊 **Monitoring & Troubleshooting:** Elastic Stack, Kibana, Log Analysis
+* 🎯 **Career Focus:** SDET, Test Automation Engineering, DevOps, and Automation Leadership
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/gajendra-tomar-3696bb72/](https://www.linkedin.com/in/gajendra-tomar-3696bb72/)
+### 🚀 Featured Projects
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/gajendra-tomar-3696bb72" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gajendra-tomar-3696bb72" height="30" width="40" /></a>
-</p>
+* **[Playwright Automation](https://github.com/iamgstomar/Playwright-Automation)** — UI automation, automated test execution, and test reporting.
+* **[GitHub Repositories](https://github.com/iamgs?tab=repositories)** — Explore my automation, QA utilities, and engineering projects.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.cypress.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/6e46ec1fc23b60c8fd0d2f2ff46db82e16dbd75f/icons/cypress.svg" alt="cypress" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://grafana.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/grafana/grafana-icon.svg" alt="grafana" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://www.elastic.co/kibana" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elasticco_kibana/elasticco_kibana-icon.svg" alt="kibana" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> </p>
+### 🏅 Certifications
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=iamgstomar&show_icons=true&locale=en&layout=compact" alt="iamgstomar" /></p>
+* Microsoft Certified: Azure DevOps Engineer Expert — AZ-400
+* Microsoft Certified: Azure Administrator Associate — AZ-104
+* Microsoft Certified: Azure Fundamentals — AZ-900
+
+### 🛠️ Tech Stack
+
+**Automation & Testing**
+
+`Playwright` `Python` `TypeScript` `Pytest` `Cypress` `Postman` `JMeter`
+
+**DevOps & Cloud**
+
+`Jenkins` `Azure DevOps` `Microsoft Azure` `AWS` `Git` `PowerShell`
+
+**Databases & Messaging**
+
+`SQL Server` `Oracle` `Redis` `RabbitMQ` `IBM MQ`
+
+**Infrastructure & Monitoring**
+
+`Linux` `Windows Server` `IIS` `TLS/SSL` `Elastic Stack` `Kibana`
+
+### 📈 Current Learning & Engineering Focus
+
+* Developing scalable, reusable Playwright automation frameworks.
+* Integrating automated testing with Jenkins and CI/CD pipelines.
+* Improving test reporting, debugging, and failure analysis.
+* Exploring AI-assisted software testing and intelligent automation.
+* Strengthening cloud DevOps and automation engineering practices.
+
+### 🤝 Connect With Me
+
+* 📧 Email: [gajendratomar81@gmail.com](mailto:gajendratomar81@gmail.com)
+* 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gadra-tomar-3696)
+* 🐙 GitHub: [@iamgstomar]([https://github.com/iamgs](https://github.com/iamgstomar))
+
+---
+
+*Automating quality. Improving reliability. Building better engineering workflows.*
