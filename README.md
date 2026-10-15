@@ -55,7 +55,7 @@ I’m an IT professional specializing in enterprise application support, softwar
 ### 🤝 Connect With Me
 
 * 📧 Email: [gajendratomar81@gmail.com](mailto:gajendratomar81@gmail.com)
-* 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gadra-tomar-3696)
+* 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gajendra-tomar-3696bb72/)
 * 🐙 GitHub: [@iamgstomar]([https://github.com/iamgs](https://github.com/iamgstomar))
 
 ---
