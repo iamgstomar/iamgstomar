@@ -1,58 +1,123 @@
 # Hi 👋, I'm Gajendra Tomar
 
-### Test Automation | Playwright • Python • CI/CD • Azure DevOps
+### Test Automation Engineer | Playwright • Python • CI/CD • Azure DevOps
 
-I’m an IT professional specializing in enterprise application support, software testing, test automation, and infrastructure troubleshooting. I’m focused on building maintainable automation frameworks, improving software quality, and integrating automated testing into CI/CD pipelines.
+I’m an IT professional experienced in enterprise application support, software testing, test automation, messaging systems, databases, and cloud technologies. I focus on building reliable automation frameworks, streamlining testing workflows, and improving software quality through automation and CI/CD.
 
-* 🔭 **Currently working on:** Playwright automation frameworks and Jenkins CI/CD pipelines
-* 🧪 **Automation & Testing:** Playwright, Python, TypeScript, Cypress, Pytest, Postman, JMeter
-* ⚙️ **DevOps & CI/CD:** Jenkins, Azure DevOps, Git, PowerShell
-* ☁️ **Cloud:** Microsoft Azure, AWS
+* 🔭 **Currently working on:** Playwright automation frameworks, Jenkins pipelines, and QA utilities
+* 🧪 **Test Automation:** Playwright, Python, TypeScript, Pytest, Cypress, Postman, JMeter
+* ⚙️ **CI/CD & DevOps:** Jenkins, Azure DevOps, Git, automated test execution and reporting
+* ☁️ **Cloud Platforms:** Microsoft Azure, AWS
+* 📨 **Messaging Systems:** RabbitMQ, IBM MQ
 * 🗄️ **Databases:** Microsoft SQL Server, Oracle, Redis
-* 📨 **Messaging & Integration:** RabbitMQ, IBM MQ
-* 🖥️ **Systems & Servers:** Linux, Windows Server, IIS, Windows Services
+* 🖥️ **Infrastructure:** Linux, Windows Server, IIS, Windows Services
 * 🔐 **Security:** TLS/SSL, Mutual TLS Authentication, API Security
-* 📊 **Monitoring & Troubleshooting:** Elastic Stack, Kibana, Log Analysis
-* 🎯 **Career Focus:** SDET, Test Automation Engineering, DevOps, and Automation Leadership
+* 📊 **Monitoring:** Elastic Stack, Kibana, Log Analysis
+* 🎯 **Career Interests:** SDET, Test Automation Engineering, DevOps, Automation Leadership
 
-### 🚀 Featured Projects
+---
 
-* **[Playwright Automation](https://github.com/iamgstomar/Playwright-Automation)** — UI automation, automated test execution, and test reporting.
-* **[GitHub Repositories](https://github.com/iamgs?tab=repositories)** — Explore my automation, QA utilities, and engineering projects.
+## 🚀 Featured Projects
 
-### 🏅 Certifications
+### 🧪 Playwright Automation Framework
+
+**[View Repository](https://github.com/iamgstomar/Playwright-Automation)**
+
+A UI test automation framework designed to simplify test execution, improve test coverage, and streamline reporting through automated workflows.
+
+**Key Features**
+
+* Browser automation using Playwright and Python
+* Pytest-based test execution
+* Excel-driven test case management
+* Automated test generation from test case definitions
+* PASS, FAIL, BLOCKED, and SKIPPED result tracking
+* Automated screenshots and test result reporting
+* Jenkins CI/CD pipeline integration
+
+**Tech Stack:** Python · Playwright · Pytest · Excel · Jenkins · Git
+
+### 🐇 RabbitMQ QA Utility
+
+A messaging administration and QA utility designed to simplify RabbitMQ management, message operations, configuration handling, and infrastructure troubleshooting.
+
+**Key Features**
+
+* Queue listing and management
+* Message backup with reported throughput of 10k+ messages/sec
+* Message preview and inspection
+* Queue purging and bulk queue deletion
+* Queue and exchange creation
+* User and permission management
+* Connection and channel monitoring
+* Exchange and binding management
+* Virtual host management
+* Feature flags, policies, and node information
+* Plugin management, including Shovels and Federation
+* RabbitMQ aliveness checks
+* Message publishing through AMQP and HTTP
+* Port scanning
+* Definitions import and export
+* Bulk deletion of RabbitMQ definitions
+
+**Tech Stack:** RabbitMQ · Messaging Systems · QA Utilities · Infrastructure Troubleshooting
+
+### 📂 More Projects
+
+Explore my other repositories, experiments, and engineering utilities.
+
+**[View All GitHub Repositories →](https://github.com/iamgs?tab=repositories)**
+
+---
+
+## 🏅 Microsoft Certifications
 
 * Microsoft Certified: Azure DevOps Engineer Expert — AZ-400
 * Microsoft Certified: Azure Administrator Associate — AZ-104
 * Microsoft Certified: Azure Fundamentals — AZ-900
 
-### 🛠️ Tech Stack
+---
 
-**Automation & Testing**
+## 🛠️ Tech Stack & Skills
 
-`Playwright` `Python` `TypeScript` `Pytest` `Cypress` `Postman` `JMeter`
+**Test Automation**
+`Playwright` `Python` `TypeScript` `Pytest` `Cypress`
 
-**DevOps & Cloud**
+**API & Performance Testing**
+`Postman` `JMeter` `API Testing` `SQL Validation`
 
-`Jenkins` `Azure DevOps` `Microsoft Azure` `AWS` `Git` `PowerShell`
+**CI/CD & DevOps**
+`Jenkins` `Azure DevOps` `Git` `PowerShell`
 
-**Databases & Messaging**
+**Cloud Platforms**
+`Microsoft Azure` `AWS`
 
-`SQL Server` `Oracle` `Redis` `RabbitMQ` `IBM MQ`
+**Databases**
+`SQL Server` `Oracle` `Redis`
 
-**Infrastructure & Monitoring**
+**Messaging & Integration**
+`RabbitMQ` `IBM MQ`
 
-`Linux` `Windows Server` `IIS` `TLS/SSL` `Elastic Stack` `Kibana`
+**Infrastructure & Security**
+`Linux` `Windows Server` `IIS` `Windows Services` `TLS/SSL` `Mutual TLS` `API Security`
 
-### 📈 Current Learning & Engineering Focus
+**Monitoring & Troubleshooting**
+`Elastic Stack` `Kibana` `Log Analysis` `Performance Analysis`
 
-* Developing scalable, reusable Playwright automation frameworks.
-* Integrating automated testing with Jenkins and CI/CD pipelines.
-* Improving test reporting, debugging, and failure analysis.
-* Exploring AI-assisted software testing and intelligent automation.
-* Strengthening cloud DevOps and automation engineering practices.
+---
 
-### 🤝 Connect With Me
+## 📈 Current Engineering Focus
+
+* Building scalable, reusable, and maintainable Playwright automation frameworks.
+* Integrating automated tests into Jenkins CI/CD pipelines.
+* Improving automated reporting, failure analysis, and debugging.
+* Developing utilities for messaging systems and infrastructure QA.
+* Exploring AI-assisted testing and intelligent automation.
+* Strengthening Azure DevOps and cloud automation skills.
+
+---
+
+## 🤝 Connect With Me
 
 * 📧 Email: [gajendratomar81@gmail.com](mailto:gajendratomar81@gmail.com)
 * 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gajendra-tomar-3696bb72/)
