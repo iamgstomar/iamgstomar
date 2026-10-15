@@ -1,29 +1,30 @@
 # Hi 👋, I'm Gajendra Tomar
 
-### Application Engineer | Playwright • Python • CI/CD • Azure DevOps
+### Application Engineer | Test Automation | Playwright • Python • CI/CD • Azure DevOps
 
-I’m an IT professional experienced in enterprise application support, software testing, test automation, messaging systems, databases, and cloud technologies. I focus on building reliable automation frameworks, streamlining testing workflows, and improving software quality through automation and CI/CD.
+I’m an IT professional with experience in enterprise application support, test automation, messaging infrastructure, database technologies, and cloud platforms. I enjoy building practical engineering tools, automating repetitive workflows, and improving software quality through reliable testing and CI/CD practices.
 
-* 🔭 **Currently working on:** Playwright automation frameworks, Jenkins pipelines, and QA utilities
-* 🧪 **Test Automation:** Playwright, Python, TypeScript, Pytest, Cypress, Postman, JMeter
-* ⚙️ **CI/CD & DevOps:** Jenkins, Azure DevOps, Git, automated test execution and reporting
+* 🔭 **Building:** Playwright automation frameworks, Jenkins pipelines, and RabbitMQ QA utilities
+* 🧪 **Test Automation:** Playwright, Python, TypeScript, Pytest, Cypress
+* 🔌 **API & Performance Testing:** Postman, JMeter, API validation, SQL testing
+* ⚙️ **CI/CD & DevOps:** Jenkins, Azure DevOps, Git, automated reporting
 * ☁️ **Cloud Platforms:** Microsoft Azure, AWS
-* 📨 **Messaging Systems:** RabbitMQ, IBM MQ
+* 📨 **Messaging & Integration:** RabbitMQ, IBM MQ
 * 🗄️ **Databases:** Microsoft SQL Server, Oracle, Redis
 * 🖥️ **Infrastructure:** Linux, Windows Server, IIS, Windows Services
-* 🔐 **Security:** TLS/SSL, Mutual TLS Authentication, API Security
-* 📊 **Monitoring:** Elastic Stack, Kibana, Log Analysis
-* 🎯 **Career Interests:** SDET, Test Automation Engineering, DevOps, Automation Leadership
+* 🔐 **Security:** TLS/SSL, Mutual TLS, API Security
+* 📊 **Monitoring & Diagnostics:** Elastic Stack, Kibana, log analysis
+* 🎯 **Professional Focus:** SDET, Test Automation Engineering, DevOps, and Automation Leadership
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🧪 Playwright Automation Framework
+### 🧪 1. Playwright Automation Framework
 
-**[View Repository](https://github.com/iamgstomar/Playwright-Automation)**
+**[Explore Repository →](https://github.com/iamgstomar/Playwright-Automation)**
 
-A UI test automation framework designed to simplify test execution, improve test coverage, and streamline reporting through automated workflows.
+A Python-based UI test automation framework built with Playwright to streamline test execution, improve test coverage, and generate actionable test reports.
 
 **Key Features**
 
@@ -33,42 +34,60 @@ A UI test automation framework designed to simplify test execution, improve test
 * Automated test generation from test case definitions
 * PASS, FAIL, BLOCKED, and SKIPPED result tracking
 * Automated screenshots and test result reporting
+* Allure reporting integration
 * Jenkins CI/CD pipeline integration
-* Allure Report
 
-**Tech Stack:** Python · Playwright · Pytest · Excel · Jenkins · Git
+**Tech Stack:** `Python` `Playwright` `Pytest` `Excel` `Allure` `Jenkins` `Git`
 
-### 🐇 RabbitMQ QA Utility
+### 🐇 2. RabbitMQ QA Utility
 
-A messaging administration and QA utility designed to simplify RabbitMQ management, message operations, configuration handling, and infrastructure troubleshooting.
+A RabbitMQ administration and quality assurance utility designed to simplify messaging operations, broker monitoring, configuration management, and infrastructure troubleshooting.
 
 **Key Features**
 
-* Queue listing and management
-* Message backup with reported throughput of 10k+ messages/sec
-* Message preview and inspection
-* Queue purging and bulk queue deletion
-* Queue and exchange creation
+* Queue listing, creation, purging, and bulk deletion
+* Message preview, backup, and publishing
+* High-throughput message backup utilities
+* Exchange and binding management
 * User and permission management
 * Connection and channel monitoring
-* Exchange and binding management
 * Virtual host management
 * Feature flags, policies, and node information
 * Plugin management, including Shovels and Federation
 * RabbitMQ aliveness checks
 * Message publishing through AMQP and HTTP
-* Port scanning
+* TCP port scanning and connectivity diagnostics
 * Definitions import and export
-* Bulk deletion of RabbitMQ definitions
-* User Activity Tracking 
+* User activity tracking and administrative auditing
 
-**Tech Stack:** RabbitMQ · Messaging Systems · QA Utilities · Infrastructure Troubleshooting
+**Tech Stack:** `RabbitMQ` `Messaging Systems` `QA Engineering` `Infrastructure Diagnostics`
 
-### 📂 More Projects
+### 🌐 3. RabbitMQ Web Toolkit — RMQ QA Utility
 
-Explore my other repositories, experiments, and engineering utilities.
+**[Explore Repository →](https://github.com/iamgstomar/RabbitMQ-Web-Toolkit)**
 
-**[View All GitHub Repositories →](https://github.com/iamgs?tab=repositories)**
+A browser-based RabbitMQ administration and QA toolkit built with Python, Flask, and RabbitMQ's Management HTTP API. It brings broker monitoring, queue operations, connectivity diagnostics, and activity auditing into a centralized web interface.
+
+**Key Features**
+
+* Broker and cluster monitoring
+* Queue and exchange administration
+* Message preview, backup, and restore utilities
+* Connection and channel inspection
+* User, permission, and virtual host management
+* Policies and Shovels management
+* Configurable TCP port scanning
+* SQL Server-backed activity auditing
+* Local JSON fallback for audit entries
+* Audit filtering and CSV export
+
+**Tech Stack:** `Python` `Flask` `RabbitMQ Management API` `SQL Server` `pyodbc` `HTML` `CSS` `JavaScript`
+
+### 📂 Explore More Projects
+
+Discover my other repositories, engineering utilities, and automation experiments.
+
+**[View All Repositories →](https://github.com/iamgs?tab=repositories)**
 
 ---
 
@@ -80,42 +99,33 @@ Explore my other repositories, experiments, and engineering utilities.
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Technical Skills
 
-**Test Automation**
-`Playwright` `Python` `TypeScript` `Pytest` `Cypress`
-
-**API & Performance Testing**
-`Postman` `JMeter` `API Testing` `SQL Validation`
-
-**CI/CD & DevOps**
-`Jenkins` `Azure DevOps` `Git` `PowerShell`
-
-**Cloud Platforms**
-`Microsoft Azure` `AWS`
-
-**Databases**
-`SQL Server` `Oracle` `Redis`
-
-**Messaging & Integration**
-`RabbitMQ` `IBM MQ`
-
-**Infrastructure & Security**
-`Linux` `Windows Server` `IIS` `Windows Services` `TLS/SSL` `Mutual TLS` `API Security`
-
-**Monitoring & Troubleshooting**
-`Elastic Stack` `Kibana` `Log Analysis` `Performance Analysis`
+| Category                     | Technologies                                    |
+| ---------------------------- | ----------------------------------------------- |
+| Test Automation              | Playwright, Python, TypeScript, Pytest, Cypress |
+| API & Performance Testing    | Postman, JMeter, API Testing                    |
+| Test Reporting               | Allure, Pytest Reports, Excel-based Reporting   |
+| CI/CD & Version Control      | Jenkins, Azure DevOps, Git                      |
+| Cloud                        | Microsoft Azure, AWS                            |
+| Databases                    | SQL Server, Oracle, Redis                       |
+| Messaging                    | RabbitMQ, IBM MQ                                |
+| Scripting                    | Python, PowerShell                              |
+| Operating Systems            | Linux, Windows Server                           |
+| Application Infrastructure   | IIS, Windows Services                           |
+| Security                     | TLS/SSL, Mutual TLS, API Security               |
+| Monitoring & Troubleshooting | Elastic Stack, Kibana, Log Analysis             |
 
 ---
 
 ## 📈 Current Engineering Focus
 
-* Building scalable, reusable, and maintainable Playwright automation frameworks.
+* Developing scalable, reusable Playwright automation frameworks.
 * Integrating automated tests into Jenkins CI/CD pipelines.
-* Improving automated reporting, failure analysis, and debugging.
-* Developing utilities for messaging systems and infrastructure QA.
+* Improving test reporting, debugging, and failure analysis.
+* Building practical QA tools for messaging infrastructure.
 * Exploring AI-assisted testing and intelligent automation.
-* Strengthening Azure DevOps and cloud automation skills.
+* Strengthening Azure DevOps and cloud automation capabilities.
 
 ---
 
@@ -127,4 +137,4 @@ Explore my other repositories, experiments, and engineering utilities.
 
 ---
 
-*Automating quality. Improving reliability. Building better engineering workflows.*
+*Automating quality. Simplifying operations. Building reliable engineering solutions.*
