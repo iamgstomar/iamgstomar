@@ -34,6 +34,7 @@ A UI test automation framework designed to simplify test execution, improve test
 * PASS, FAIL, BLOCKED, and SKIPPED result tracking
 * Automated screenshots and test result reporting
 * Jenkins CI/CD pipeline integration
+* Allure Report
 
 **Tech Stack:** Python · Playwright · Pytest · Excel · Jenkins · Git
 
@@ -59,6 +60,7 @@ A messaging administration and QA utility designed to simplify RabbitMQ manageme
 * Port scanning
 * Definitions import and export
 * Bulk deletion of RabbitMQ definitions
+* User Activity Tracking 
 
 **Tech Stack:** RabbitMQ · Messaging Systems · QA Utilities · Infrastructure Troubleshooting
 
