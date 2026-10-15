@@ -123,7 +123,7 @@ Explore my other repositories, experiments, and engineering utilities.
 
 * 📧 Email: [gajendratomar81@gmail.com](mailto:gajendratomar81@gmail.com)
 * 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gajendra-tomar-3696bb72/)
-* 🐙 GitHub: [@iamgstomar]([https://github.com/iamgs](https://github.com/iamgstomar))
+* 🐙 GitHub: [@iamgstomar](https://github.com/iamgstomar)
 
 ---
 
