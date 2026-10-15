@@ -1,6 +1,6 @@
 # Hi 👋, I'm Gajendra Tomar
 
-### Test Automation Engineer | Playwright • Python • CI/CD • Azure DevOps
+### Application Engineer | Playwright • Python • CI/CD • Azure DevOps
 
 I’m an IT professional experienced in enterprise application support, software testing, test automation, messaging systems, databases, and cloud technologies. I focus on building reliable automation frameworks, streamlining testing workflows, and improving software quality through automation and CI/CD.
 
