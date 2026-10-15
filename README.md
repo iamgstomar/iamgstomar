@@ -41,6 +41,8 @@ A Python-based UI test automation framework built with Playwright to streamline 
 
 ### 🐇 2. RabbitMQ QA Utility
 
+**[Explore Repository →](https://github.com/iamgstomar/RabbitMQ-QA-Utility-Phase-One)**
+
 A RabbitMQ administration and quality assurance utility designed to simplify messaging operations, broker monitoring, configuration management, and infrastructure troubleshooting.
 
 **Key Features**
