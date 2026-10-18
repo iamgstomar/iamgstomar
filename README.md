@@ -12,7 +12,7 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/iamgstomar">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=900&lines=Gajendra+Tomar+-+Application+Engineer;Playwright+%2B+Python+%7C+Test+Automation;Jenkins+Pipelines+%7C+CI%2FCD+%7C+DevOps;Building+Practical+QA+and+RabbitMQ+Tools" alt="typing banner">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2600&pause=900&color=AA9BEF&center=true&vCenter=true&width=900&lines=Gajendra+Tomar+-+Application+Engineer;Playwright+%2B+Python+%7C+Test+Automation;Pytest+%7C+Cypress+%7C+TypeScript;Postman+%7C+JMeter+%7C+API+%26+SQL+Testing;Jenkins+Pipelines+%7C+CI%2FCD+%7C+DevOps;Azure+DevOps+%7C+Git+%7C+Automated+Reporting;Microsoft+Azure+%7C+AWS;RabbitMQ+%7C+IBM+MQ+%7C+Messaging;SQL+Server+%7C+Oracle+%7C+Redis;Linux+%7C+Windows+Server+%7C+IIS;TLS%2FSSL+%7C+Mutual+TLS+%7C+API+Security;Elastic+Stack+%7C+Kibana+%7C+Log+Analysis;Building+Practical+QA+and+RabbitMQ+Tools;SDET+%7C+Test+Automation+%7C+DevOps+Leadership" alt="typing banner">
 </a>
 
 <br>
