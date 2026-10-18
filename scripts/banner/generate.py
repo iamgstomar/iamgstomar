@@ -155,45 +155,45 @@ def floyd_steinberg(gray: np.ndarray) -> np.ndarray:
     return out
 
 
+# Crop box (left, top, width) in SOURCE pixels, height follows the 300x340 frame.
+# Tuned for assets/source/portrait.png (transparent-background head-and-shoulders cutout).
+CROP_LEFT, CROP_TOP, CROP_WIDTH = 225, 95, 600
+CLAHE_CLIP, GAMMA, SHARP = 3.5, 0.6, 2.0
+MAX_POINTS = 40000  # frame has 102k cells; cap only guards file size
+
+
 def portrait_points(theme: str, rng: np.random.Generator) -> np.ndarray:
-    """Return sampled x/y banner coordinates from a 300x340 dither grid."""
-    source = Image.open(SOURCE).convert("RGBA")
-    # Tighter head + shoulders crop so face detail fills the VISUAL.MAP frame.
-    crop = source.crop((18, 28, 390, 450)).resize((300, 340), Image.Resampling.LANCZOS)
-    rgb = crop.convert("RGB")
-    alpha = np.asarray(crop.getchannel("A"), dtype=np.float32) / 255.0
+    """Return sampled x/y banner coordinates from a 300x340 dither grid.
+
+    Local-contrast (CLAHE) + gamma + unsharp keep glasses, eyes and beard readable
+    after 1-bit dithering instead of collapsing skin tones into grey noise.
+    """
+    import cv2
+
+    src = np.asarray(Image.open(SOURCE).convert("RGBA"))
+    crop_h = int(CROP_WIDTH * 340 / 300)
+    crop = src[CROP_TOP:CROP_TOP + crop_h, CROP_LEFT:CROP_LEFT + CROP_WIDTH]
+    crop = cv2.resize(crop, (300, 340), interpolation=cv2.INTER_AREA)
+    alpha = crop[..., 3].astype(np.float32) / 255.0
+    gray = cv2.cvtColor(crop[..., :3], cv2.COLOR_RGB2GRAY)
+    tone = cv2.createCLAHE(clipLimit=CLAHE_CLIP, tileGridSize=(6, 6)).apply(gray)
+    f = (tone / 255.0) ** GAMMA
+    blur = cv2.GaussianBlur(f, (0, 0), 1.6)
+    f = np.clip(f + SHARP * (f - blur), 0, 1)
 
     if theme == "dark":
-        lum = np.asarray(ImageOps.grayscale(rgb), dtype=np.float32)
-        prepared = Image.fromarray(np.uint8(np.clip(lum * alpha, 0, 255)), "L")
-        select_lit = True
+        bits = floyd_steinberg(np.uint8(f * 255 * alpha))
+        active = bits & (alpha > 0.08)
     else:
-        white = Image.new("RGBA", crop.size, "white")
-        white.alpha_composite(crop)
-        prepared = ImageOps.grayscale(white.convert("RGB"))
-        select_lit = False
+        bits = floyd_steinberg(np.uint8((f * alpha + (1 - alpha)) * 255))
+        active = ~bits
 
-    # Equalize against the subject only (ignore empty alpha) so lit skin vs dark
-    # hair doesn't crush midtones; then punch local contrast for facial edges.
-    if theme == "dark":
-        mask = Image.fromarray(np.uint8((alpha > 0.08) * 255), "L")
-        prepared = ImageOps.equalize(prepared, mask=mask)
-    else:
-        prepared = ImageOps.autocontrast(prepared, cutoff=1)
-    prepared = ImageEnhance.Contrast(prepared).enhance(1.35)
-    prepared = prepared.filter(ImageFilter.UnsharpMask(radius=2, percent=175, threshold=1))
-    bits = floyd_steinberg(np.asarray(prepared))
-    active = bits if select_lit else ~bits
-    if theme == "dark":
-        active &= alpha > 0.08
-
-    # Keep the full 300×340 lattice — skipping 2×2 cells was the soft/blurry look.
     ys, xs = np.where(active)
     if len(xs) == 0:
         return np.zeros((0, 2), dtype=np.float32)
     points = np.column_stack((74 + xs, 154 + ys)).astype(np.float32)
-    if len(points) > 18000:
-        points = points[rng.choice(len(points), 18000, replace=False)]
+    if len(points) > MAX_POINTS:
+        points = points[rng.choice(len(points), MAX_POINTS, replace=False)]
     return points
 
 
@@ -466,7 +466,7 @@ def main() -> None:
         for name, points in sampled.items():
             np.save(DATA / f"{name}-{theme}.npy", points)
         svg = render_svg(theme, portraits[theme], sampled, rng)
-        output = ASSETS / f"banner-{theme}.v10.svg"
+        output = ASSETS / f"banner-{theme}.v11.svg"
         output.write_text(svg, encoding="utf-8")
         byte_size = output.stat().st_size
         print(
