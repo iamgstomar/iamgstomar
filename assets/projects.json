@@ -1,0 +1,17 @@
+{
+  "_comment": "Featured repos, in README order. Stars/forks/language come live from the API on every run; the description here overrides the repo's GitHub description.",
+  "projects": [
+    {
+      "repo": "Playwright-Automation",
+      "description": "Framework de automatizacion UI en Python + Playwright: Pytest, casos desde Excel, screenshots, reportes Allure y pipeline en Jenkins."
+    },
+    {
+      "repo": "RabbitMQ-QA-Utility-Phase-One",
+      "description": "Utilidad de administracion y QA para RabbitMQ: colas, mensajes, exchanges, usuarios, monitoreo y diagnostico de conectividad."
+    },
+    {
+      "repo": "RabbitMQ-Web-Toolkit",
+      "description": "Toolkit web (Flask + Management API) para monitorear brokers, operar colas y auditar actividad con SQL Server."
+    }
+  ]
+}

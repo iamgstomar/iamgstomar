@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Edit these and the Charts workflow redraws the radar.",
+  "axes": [
+    { "label": "Test Automation",     "value": 90 },
+    { "label": "CI/CD & DevOps",      "value": 82 },
+    { "label": "API & Perf Testing",  "value": 80 },
+    { "label": "Azure / Cloud",       "value": 78 },
+    { "label": "Messaging (MQ)",      "value": 80 },
+    { "label": "Databases & SQL",     "value": 76 },
+    { "label": "Release Engineering", "value": 85 }
+  ]
+}
