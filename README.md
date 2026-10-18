@@ -18,7 +18,7 @@
 <br>
 
 <a href="https://github.com/iamgstomar"><img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=aa9bef" alt="GitHub"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/gajera-tar-3672/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/gajendra-tomar-3696bb72/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 <br>
 
