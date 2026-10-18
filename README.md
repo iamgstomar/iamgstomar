@@ -263,8 +263,8 @@ Discover my other repositories, engineering utilities, and automation experiment
 
 ## 🤝 Connect With Me
 
-* 📧 Email: [gajendra@gmail.com](mailto:gajendra@gmail.com)
-* 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gajera-tar-3672/)
+* 📧 Email: [gajendratomar81@gmail.com](mailto:gajendratomar81@gmail.com)
+* 💼 LinkedIn: [Gajendra Tomar](https://www.linkedin.com/in/gajendra-tomar-3696bb72/)
 * 🐙 GitHub: [@iamgstomar](https://github.com/iamgstomar)
 
 ---
